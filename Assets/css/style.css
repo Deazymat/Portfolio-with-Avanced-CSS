@@ -9,22 +9,22 @@ body {
     margin-bottom: px;
     margin-right: 150px;
     margin-left: 200px;
-    background-color: #80b0d8;
+    background-color: #201c15;
 }
 
 .about-me {
-    color: #80b0d8;
-    background-color: #80b0d8;
+    color: #201c15;
+    background-color: #201c15;
 
 }
 
 .header {
-    border: 20px solid #80b0d8;
+    border: 20px solid #201c15;
         padding: 20px;
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
             "Lucida Sans", Arial, sans-serif;
-        background-color: #80b0d8;
-        color: #80b0d8;
+        background-color: #201c15;
+        color: #201c15;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -33,8 +33,9 @@ body {
 h1 {
     display: inline-block;
     font-size: 40px;
-    color: #000;
-    background-color: #80b0d8;
+    color: white;
+    background-color: #201c15;
+    border: 5px solid white;
 }
 
 
@@ -42,12 +43,13 @@ h1 {
 img {
     height: auto;
     width: 100%;
+    border: 5px solid white;
     /* max-height: 200px; */
 }
 img:hover {
-    background-color: red;
+    background-color: white;
     transition: 1s;
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: 3px 3px 3px 3px white;
     
 }
 
@@ -73,8 +75,10 @@ li {
 /* The nav top bar */
 a {
     display: flex;
-    color: #000000;
+    color: white;
     text-decoration: none;
+    border: 5px solid white;
+    
 }
 
 h2 {
@@ -90,11 +94,15 @@ h2 {
 h3 {
     font-size: 40px;
         margin-bottom: 10px;
-        border: 20px solid 80b0d8;
+        border: 5px solid white;
         text-align: center;
+        color: white;
+
 }
 h4 {
     font-size: 30px;
+    color: white;
+    border: 5px solid white;
 }
 
 .content {
@@ -114,15 +122,15 @@ position: relative;
 }
 
 #Search-Engine-Optimization {
-    border: 20px solid #80b0d8;
+    border: 20px solid #201c15;
 
  
     height: 300px;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #80b0d8;
-    color: #000000;
+    background-color: #201c15;
+    color: white;
 }
 #Search-Engine-Optimization img {
     height: 250px;
@@ -130,27 +138,27 @@ position: relative;
 }
 
 #Online-Reputation-Management {
-    border: 20px solid #80b0d8;
+    border: 20px solid #201c15;
 
   
     height: 300px;
     width: 50%;
     display: flex;
     align-items: center;
-    background-color: #80b0d8;
-    color: #000000;
+    background-color: #201c15;
+    color: white;
 }
 
 #Social-Media-Marketing {
-    border: 20px solid #80b0d8;
+    border: 20px solid #201c15;
 
 
     height: 300px;
     width: 50%;
     display: flex;
     align-items: center;
-    background-color: #80b0d8;
-    color: #000000;
+    background-color: #201c15;
+    color: white;
 }
 
 .aside {
@@ -161,18 +169,23 @@ position: relative;
     padding: 50px;
     display: flex;
     align-self: top;
-    background-color: #80b0d8;
-    border: 20px solid #80b0d8;
+    background-color: #201c15;
+    border: 20px solid #201c15;
     padding: 10px;
+   
 
 }
 
+p {
+    color: white;
+    border: 5px solid white;
 
+}
 
 /* moved to bottom of page */
 .footer {
     padding: 30px;
-    border: 20px solid #80b0d8;
+    border: 20px solid #201c15;
     clear: both;
     text-align: center;
     display: flex;
